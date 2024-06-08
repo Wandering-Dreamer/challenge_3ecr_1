@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js\cadastrar.js" defer></script>
+    
+    <title>Cadastro de Treinamentos</title>
+</head>
+<body>
+    <body class="w3-light-grey">
+    
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+
+        <hr>
+        <div class="w3-container">
+          <h5>Overview</h5>
+        </div>
+        <div class="w3-bar-block">
+            <a href="index.html" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Overview</a>
+            <a href="cadastrarTreinamento.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-laptop fa-fw"></i>  Cadastrar Treinamento</a>
+            <a href="cadastrarColaborador.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Cadastrar Colaboradores</a>
+            <a href="treinamentos.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bookmark fa-fw"></i>  Treinamentos</a>
+            <a href="colaboradores.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Colaboradores</a>
+        </div>
+      </nav>
+
+      <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+        <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+        <span class="w3-bar-item">Treinamentos SANOFI</span>
+      </div>
+
+    <form action="">
+        <h2>Novo Treinamento</h2>
+        <div class="w3-container w3-teal w3-padding-16">
+            <div class="w3-container w3-teal w3-padding-16 input-item">
+                <label for="titulo">Título</label>
+                <input type="text" id="titulo">
+            </div>
+            
+            <div class="w3-container w3-teal w3-padding-16 input-item">
+                <label for="descricao">Descrição</label>
+                <input type="text" id="descricao">
+            </div>
+
+            <div class="w3-container w3-teal w3-padding-16 input-item">
+                <label for="data">Data</label>
+                <input type="text" id="data">
+            </div>
+
+            <div class="w3-container w3-teal w3-padding-16 input-item">
+                <label for="participantes">Participantes</label>
+                <input type="text" id="participantes">
+            </div>
+            
+            <div class="w3-container w3-teal w3-padding-16 input-item">
+                <label for="instrutor">Instrutor</label>
+                <input type="text" id="instrutor">
+            </div>
+
+            <div class="w3-container w3-teal w3-padding-16 input-item">
+                <label for="duração">Duração</label>
+                <input type="text" id="duração">
+            </div>
+        </div>
+            <button id="botoes">
+                Salvar
+            </button>
+
+            <button class="botoes">
+                Importar
+            </button>
+        </div>
+    </form>
+</body>
+</html>

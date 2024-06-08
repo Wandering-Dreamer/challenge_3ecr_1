@@ -1,0 +1,43 @@
+
+
+h2{
+    margin-top: 5rem;
+}
+
+input {
+    margin-left: auto;
+}
+
+.input-item{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+form{
+    
+    max-width: 600px;
+    margin: 1.78rem auto;
+
+    .botoes {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .apagando {
+        animation: fadeout 1s;
+    }
+    
+    @keyframes fadeout {
+        from {
+            opacity: 1;
+        }
+        to{
+            opacity: 0;
+        }
+    
+}
+}
