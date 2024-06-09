@@ -16,6 +16,20 @@ input {
     justify-content: space-between;
   }
 
+  #listaDeTreinamentos {
+    margin-left: 25rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.2rem;
+}
+
+    #listaDeColaboradores {
+     margin-left: 25rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.2rem;
+}
+
 form{
     
     max-width: 600px;
