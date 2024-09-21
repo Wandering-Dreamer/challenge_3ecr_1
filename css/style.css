@@ -1,4 +1,10 @@
+section{
+    margin-top: 10rem;
+}
 
+div{
+    margin-top: auto;
+}
 
 h2{
     margin-top: 5rem;
@@ -24,7 +30,7 @@ input {
 }
 
     #listaDeColaboradores {
-     margin-left: 25rem;
+    margin-left: 25rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1.2rem;
